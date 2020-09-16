@@ -37,7 +37,7 @@ In such case we can:
 To initialize git run ( run it down)
 ```
 
-`git init`.
+- `git init`.
 ```
 This command creates an empty Git repository. From now on, we can make changes to our files and permanently  save the changes
 
@@ -45,11 +45,19 @@ This command creates an empty Git repository. From now on, we can make changes t
 
 1. `git add .` (or `git add -A`). 
 
-2. `git commit -m "Meaningful message here"`
+2. `git commit -m `"nothing to commit"
 
 A commit is the Git equivalent of save
 
 3. `git push` i have time
-heheheewa
 
-This comment sends the committed changes to a server. It is used to upload local repository content to a remote repository
+This comment sends the committed changes to a server. It is used to upload local repository content to a remote repository 
+
+## 5. Branching
+- `git branch branch_name `
+Create a new branch
+**Attention:** this will not move you to a new branch. You will new to use `git Checkout` for that.
+- `git Checkout branch_name`
+Switch to the new branch and work on changes there. 
+- `git branch -l` 
+List the avaiable branches and see which one i am now. hhhhh
