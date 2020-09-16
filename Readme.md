@@ -50,6 +50,5 @@ This command creates an empty Git repository. From now on, we can make changes t
 A commit is the Git equivalent of save
 
 3. `git push` i have time
-heheheewa
 
 This comment sends the committed changes to a server. It is used to upload local repository content to a remote repository
