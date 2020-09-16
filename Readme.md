@@ -17,11 +17,15 @@ I can use the comments ***anytime** to inspect the project.
 with `git Status` i can see if some changes have happened and if some files are ready to be committed.
 It gives me an overview of the project at that specific moment in time.
 
+Messages given by `git status`:
+> working tree clean
+This means that no change has happened in our project since our last `git commit`
+
 - `git log`
 - `git diff`
 
 # 3. Initializing a git Project 
-if any `git`command that we run gives the following output:
+if any `git`command when we run gives the following output:
 >fatal: not a git repository (or any of the parent directories): .git
 
 it means that **we are not inside a git project**.
@@ -45,7 +49,7 @@ This command creates an empty Git repository. From now on, we can make changes t
 
 A commit is the Git equivalent of save
 
-3. `git push`
+3. `git push` i have time
 
 
 This comment sends the committed changes to a server. It is used to upload local repository content to a remote repository
