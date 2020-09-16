@@ -45,10 +45,10 @@ This command creates an empty Git repository. From now on, we can make changes t
 
 1. `git add .` (or `git add -A`). 
 
-2. `git commit -m "Meaningful message here"`
+2. `git commit -m `"nothing to commit"
 
 A commit is the Git equivalent of save
 
 3. `git push` i have time
 
-This comment sends the committed changes to a server. It is used to upload local repository content to a remote repository
+This comment sends the committed changes to a server. It is used to upload local repository content to a remote repository 
